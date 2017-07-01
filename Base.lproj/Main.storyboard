@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="U0a-jO-8rQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="uQd-jD-BOT">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="HomeViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baller.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Xcd-Fz-vw3">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iix-tm-Jr3">
                                 <rect key="frame" x="156.5" y="308.5" width="62.5" height="50.5"/>
@@ -37,7 +37,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwF-Jf-2XE">
-                                <rect key="frame" x="2.5" y="52" width="370.5" height="47"/>
+                                <rect key="frame" x="2.5" y="96" width="370.5" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="azy-7h-KDt"/>
                                 </constraints>
@@ -103,6 +103,7 @@
                             <constraint firstItem="Iix-tm-Jr3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tLk-ES-4GY"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="C9N-xe-SG5"/>
                     <connections>
                         <outlet property="background" destination="Xcd-Fz-vw3" id="OvV-HI-4tW"/>
                         <segue destination="PFE-nh-dFs" kind="show" identifier="hometosecondvisitsegue" id="Y4J-st-xob"/>
@@ -111,12 +112,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="72.799999999999997" y="37.331334332833585"/>
+            <point key="canvasLocation" x="1012" y="37.331334332833585"/>
         </scene>
         <!--Second Visit View Controller-->
         <scene sceneID="zSQ-WB-DAC">
             <objects>
-                <viewController id="PFE-nh-dFs" customClass="SecondVisitViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="PFE-nh-dFs" customClass="SecondVisitViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iCQ-iD-nwJ"/>
                         <viewControllerLayoutGuide type="bottom" id="but-sV-mpR"/>
@@ -126,17 +127,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ej-pb-fNB">
-                                <rect key="frame" x="0.0" y="20" width="375" height="750"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="706"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DB3-G7-PKz">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="750"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DB3-G7-PKz">
+                                        <rect key="frame" x="0.0" y="-70" width="375" height="750"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seablue" translatesAutoresizingMaskIntoConstraints="NO" id="l1d-du-Ji9">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="750"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="seablue" translatesAutoresizingMaskIntoConstraints="NO" id="l1d-du-Ji9">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="773"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5K8-WT-L9j">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5K8-WT-L9j">
                                                 <rect key="frame" x="77" y="203" width="223" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="3) Ratio Introduction">
@@ -149,10 +149,15 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="secondvisittoratiointrobutton:" destination="PFE-nh-dFs" eventType="touchUpInside" id="vXY-kf-vUg"/>
+                                                </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4b-oH-Ilf">
-                                                <rect key="frame" x="0.0" y="30" width="375" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4b-oH-Ilf">
+                                                <rect key="frame" x="3" y="30" width="370" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="uEg-AJ-9qK"/>
+                                                </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Hey Wolf, Where Do You Wanna Go?">
                                                         <attributes>
@@ -178,10 +183,12 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="secondvisittostockshortlistbutton:" destination="PFE-nh-dFs" eventType="touchUpInside" id="k6E-iS-mNv"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ts-Ko-eMB">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ts-Ko-eMB">
                                                 <rect key="frame" x="49" y="279" width="278" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="4)Earnings Per Share (EPS)">
@@ -194,10 +201,12 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="secondvisittoepsbutton:" destination="PFE-nh-dFs" eventType="touchUpInside" id="zgz-PS-qAk"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pnI-um-58M">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pnI-um-58M">
                                                 <rect key="frame" x="61" y="342" width="252" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="5) Price to Earnings (PE)">
@@ -210,10 +219,12 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="secondvisittopebutton:" destination="PFE-nh-dFs" eventType="touchUpInside" id="XlY-ge-DUF"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xxv-rn-oex">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xxv-rn-oex">
                                                 <rect key="frame" x="93" y="439" width="185" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="6) Debt to Equity ">
@@ -226,13 +237,15 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="secondvisittodebttoequitybutton:" destination="PFE-nh-dFs" eventType="touchUpInside" id="Ywi-Z7-VvF"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uli-vP-cDT">
-                                                <rect key="frame" x="57" y="536" width="261" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uli-vP-cDT">
+                                                <rect key="frame" x="98" y="536" width="179" height="43"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="7) Dividend Payout Ratio ">
+                                                        <fragment content="7) Dividend Yield">
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="0.12281600080000001" green="0.13129685159999999" blue="0.50892117039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <color key="NSColor" red="0.94604723729999995" green="0.98324870460000002" blue="0.99336870030000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -242,10 +255,12 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="secondvisittodividendyieldbutton:" destination="PFE-nh-dFs" eventType="touchUpInside" id="mdf-im-kkd"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RJr-DL-hcf">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RJr-DL-hcf">
                                                 <rect key="frame" x="122" y="624" width="131" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="8) Game Time">
@@ -258,10 +273,12 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="secondvisittogametimebutton:" destination="PFE-nh-dFs" eventType="touchUpInside" id="dDK-BZ-eCz"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L9J-W0-4ZJ">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L9J-W0-4ZJ">
                                                 <rect key="frame" x="65" y="75" width="248" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
                                                         <fragment content="1) General Introduction">
@@ -281,9 +298,23 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstItem="U4b-oH-Ilf" firstAttribute="centerX" secondItem="5K8-WT-L9j" secondAttribute="centerX" id="06u-j6-D2z"/>
+                                            <constraint firstAttribute="bottom" secondItem="uli-vP-cDT" secondAttribute="bottom" constant="171" id="2RM-Gv-4h0"/>
+                                            <constraint firstItem="U4b-oH-Ilf" firstAttribute="centerX" secondItem="uli-vP-cDT" secondAttribute="centerX" id="2Z5-ce-tPc"/>
+                                            <constraint firstItem="L9J-W0-4ZJ" firstAttribute="top" secondItem="U4b-oH-Ilf" secondAttribute="bottom" constant="24" id="4b4-ka-tlY"/>
                                             <constraint firstItem="l1d-du-Ji9" firstAttribute="leading" secondItem="DB3-G7-PKz" secondAttribute="leading" id="5dS-rD-xwD"/>
                                             <constraint firstAttribute="trailing" secondItem="l1d-du-Ji9" secondAttribute="trailing" id="IQ4-Ly-4mb"/>
+                                            <constraint firstItem="3Ts-Ko-eMB" firstAttribute="top" secondItem="DB3-G7-PKz" secondAttribute="top" constant="279" id="Ias-ES-syu"/>
+                                            <constraint firstItem="pnI-um-58M" firstAttribute="top" secondItem="3Ts-Ko-eMB" secondAttribute="bottom" constant="20" id="KpB-EH-2Rw"/>
+                                            <constraint firstItem="U4b-oH-Ilf" firstAttribute="centerX" secondItem="DB3-G7-PKz" secondAttribute="centerX" id="Uew-KL-B8L"/>
+                                            <constraint firstItem="3Ts-Ko-eMB" firstAttribute="top" secondItem="5K8-WT-L9j" secondAttribute="bottom" constant="33" id="VN8-j1-KDB"/>
+                                            <constraint firstItem="U4b-oH-Ilf" firstAttribute="centerX" secondItem="3Ts-Ko-eMB" secondAttribute="centerX" id="XmE-JD-3Tg"/>
                                             <constraint firstAttribute="bottom" secondItem="l1d-du-Ji9" secondAttribute="bottom" id="Z9r-8l-djM"/>
+                                            <constraint firstItem="uli-vP-cDT" firstAttribute="top" secondItem="xxv-rn-oex" secondAttribute="bottom" constant="54" id="ZQq-be-yMS"/>
+                                            <constraint firstItem="RJr-DL-hcf" firstAttribute="top" secondItem="uli-vP-cDT" secondAttribute="bottom" constant="45" id="aPH-8C-Otm"/>
+                                            <constraint firstItem="U4b-oH-Ilf" firstAttribute="centerX" secondItem="RJr-DL-hcf" secondAttribute="centerX" id="c1p-nE-QC6"/>
+                                            <constraint firstItem="U4b-oH-Ilf" firstAttribute="top" secondItem="DB3-G7-PKz" secondAttribute="top" constant="30" id="lmy-qt-lEA"/>
+                                            <constraint firstItem="uli-vP-cDT" firstAttribute="centerX" secondItem="pnI-um-58M" secondAttribute="centerX" id="myl-Fy-dT6"/>
                                             <constraint firstAttribute="height" constant="750" id="oGe-nk-owL"/>
                                             <constraint firstItem="l1d-du-Ji9" firstAttribute="top" secondItem="DB3-G7-PKz" secondAttribute="top" id="qnZ-bN-dYT"/>
                                         </constraints>
@@ -310,16 +341,23 @@
                     <size key="freeformSize" width="375" height="770"/>
                     <connections>
                         <segue destination="1wS-8N-7JG" kind="show" identifier="secondvisittointrosegue" id="ysf-76-MVg"/>
+                        <segue destination="U0a-jO-8rQ" kind="show" identifier="secondvisittostockshortlistsegue" id="VCC-8q-dG4"/>
+                        <segue destination="cpL-WG-vgO" kind="show" identifier="secondvisittoratiointrosegue" id="uIO-PJ-zch"/>
+                        <segue destination="ywI-HS-dch" kind="show" identifier="secondvisittoepssegue" id="Cne-K5-eHy"/>
+                        <segue destination="hCB-gd-THS" kind="show" identifier="secondvisittopesegue" id="CI1-kc-aGR"/>
+                        <segue destination="OEx-rZ-y6r" kind="show" identifier="secondvisittodebttoequitysegue" id="YVc-mB-IzD"/>
+                        <segue destination="7bS-aM-IAM" kind="show" identifier="secondvisittodividendyieldsegue" id="Hnl-A7-FPf"/>
+                        <segue destination="bzP-Fe-A6z" kind="show" identifier="secondvisittogametimesegue" id="Wb6-mf-0Wg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p8R-hg-dpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1602" y="731"/>
+            <point key="canvasLocation" x="1600.8" y="730.43478260869574"/>
         </scene>
         <!--Introduction View Controller-->
         <scene sceneID="5IJ-B9-rmm">
             <objects>
-                <viewController id="1wS-8N-7JG" customClass="IntroductionViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="1wS-8N-7JG" customClass="IntroductionViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="z2e-7r-5J1"/>
                         <viewControllerLayoutGuide type="bottom" id="IPv-2C-uRH"/>
@@ -329,10 +367,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jx6-d5-zeT">
-                                <rect key="frame" x="0.0" y="20" width="375" height="2000"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="1956"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AWh-T7-YvH">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AWh-T7-YvH">
+                                        <rect key="frame" x="0.0" y="-56" width="375" height="2056"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seablue" translatesAutoresizingMaskIntoConstraints="NO" id="v5R-AE-GjK">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
@@ -352,8 +390,8 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAC-uN-d2Y">
-                                                <rect key="frame" x="128" y="1899" width="120" height="71"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAC-uN-d2Y">
+                                                <rect key="frame" x="137" y="1852" width="120" height="71"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="71" id="5FU-Jo-4VZ"/>
                                                 </constraints>
@@ -367,6 +405,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="introtostockshortlistbutton:" destination="1wS-8N-7JG" eventType="touchUpInside" id="UDf-03-yrs"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -402,15 +443,18 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="2020"/>
+                    <connections>
+                        <segue destination="U0a-jO-8rQ" kind="show" identifier="introtostockshortlistsegue" id="GLy-7d-4ld"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8FH-VG-7Cs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1602.4000000000001" y="-1150.5247376311845"/>
+            <point key="canvasLocation" x="2541.5999999999999" y="-1150.5247376311845"/>
         </scene>
         <!--Stock Shortlist View Controller-->
         <scene sceneID="ZcQ-d1-7xp">
             <objects>
-                <viewController id="U0a-jO-8rQ" customClass="StockShortlistViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="U0a-jO-8rQ" customClass="StockShortlistViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ukK-dO-dNg"/>
                         <viewControllerLayoutGuide type="bottom" id="ykm-0k-Xr6"/>
@@ -420,7 +464,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unh-PF-AGc">
-                                <rect key="frame" x="0.0" y="20" width="375" height="5000"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="4956"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FNU-sh-jU6">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
@@ -458,6 +502,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="stockshortlisttoratiointrobutton:" destination="U0a-jO-8rQ" eventType="touchUpInside" id="mIZ-3E-m9m"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -493,15 +540,18 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="5020"/>
+                    <connections>
+                        <segue destination="cpL-WG-vgO" kind="show" identifier="stockshortlisttoratiointrosegue" id="mgs-St-ZPF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abo-RX-kl9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3145" y="-506"/>
+            <point key="canvasLocation" x="4084" y="-506.44677661169419"/>
         </scene>
         <!--Ratio Introduction View Controller-->
         <scene sceneID="TXY-l3-XwS">
             <objects>
-                <viewController id="cpL-WG-vgO" customClass="RatioIntroductionViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="cpL-WG-vgO" customClass="RatioIntroductionViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m2D-AY-p5C"/>
                         <viewControllerLayoutGuide type="bottom" id="3hx-xm-4sD"/>
@@ -511,7 +561,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nXn-8Q-v0I">
-                                <rect key="frame" x="0.0" y="20" width="375" height="5000"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="4956"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d3g-UX-Ya9">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
@@ -549,6 +599,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="ratiointrotoepsbutton:" destination="cpL-WG-vgO" eventType="touchUpInside" id="mke-V2-ltd"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -584,15 +637,18 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="5020"/>
+                    <connections>
+                        <segue destination="ywI-HS-dch" kind="show" identifier="ratiointrotoepssegue" id="BC5-iz-XJB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="elo-Wm-9WE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4247" y="-506"/>
+            <point key="canvasLocation" x="5184.8000000000002" y="-506.44677661169419"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Db3-rv-2hm">
             <objects>
-                <viewController id="ywI-HS-dch" customClass="EPSViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="ywI-HS-dch" customClass="EPSViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bo2-Ns-qpc"/>
                         <viewControllerLayoutGuide type="bottom" id="J1u-5s-U8l"/>
@@ -602,7 +658,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ICn-op-pYP">
-                                <rect key="frame" x="0.0" y="20" width="375" height="5000"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="4956"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HTR-8a-xDY">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
@@ -639,6 +695,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="epstopebutton:" destination="ywI-HS-dch" eventType="touchUpInside" id="LV1-LG-WWM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -672,15 +731,18 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="5020"/>
+                    <connections>
+                        <segue destination="hCB-gd-THS" kind="show" identifier="epstopesegue" id="5qt-Jl-O66"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sw2-I0-9CN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5447.1999999999998" y="-506.44677661169419"/>
+            <point key="canvasLocation" x="6386.3999999999996" y="-506.44677661169419"/>
         </scene>
         <!--Ratio View Controller-->
         <scene sceneID="qeV-3o-T3O">
             <objects>
-                <viewController id="hCB-gd-THS" customClass="PERatioViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="hCB-gd-THS" customClass="PERatioViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YfO-Y0-Z1H"/>
                         <viewControllerLayoutGuide type="bottom" id="g7f-op-nG0"/>
@@ -690,7 +752,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tbu-nd-EJZ">
-                                <rect key="frame" x="0.0" y="20" width="375" height="5000"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="4956"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yBz-n0-Fct">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
@@ -728,6 +790,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="petodebttoequitybutton:" destination="hCB-gd-THS" eventType="touchUpInside" id="egN-XA-Ieh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -763,15 +828,18 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="5020"/>
+                    <connections>
+                        <segue destination="OEx-rZ-y6r" kind="show" identifier="petodebtoequitysegue" id="xCV-O8-cu5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q6j-Ah-m9J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6692" y="-506"/>
+            <point key="canvasLocation" x="7631.1999999999998" y="-506.44677661169419"/>
         </scene>
         <!--Debt Equity Ratio View Controller-->
         <scene sceneID="Rfc-Wl-roj">
             <objects>
-                <viewController id="OEx-rZ-y6r" customClass="DebtEquityRatioViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="OEx-rZ-y6r" customClass="DebtEquityRatioViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GB6-QC-MO5"/>
                         <viewControllerLayoutGuide type="bottom" id="wsh-9p-Zhh"/>
@@ -781,7 +849,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1c-ci-Krz">
-                                <rect key="frame" x="0.0" y="20" width="375" height="5000"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="4956"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDK-Sy-jtx">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
@@ -789,8 +857,11 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seablue" translatesAutoresizingMaskIntoConstraints="NO" id="00G-jn-gHT">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0Q-HH-S4o">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0Q-HH-S4o">
                                                 <rect key="frame" x="63" y="23" width="249" height="49"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="49" id="rlm-QC-0dS"/>
+                                                </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Debt To Equity Ratio">
                                                         <attributes>
@@ -816,13 +887,18 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="debttoequitytodividendyieldbutton:" destination="OEx-rZ-y6r" eventType="touchUpInside" id="TrD-Fn-d27"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="5000" id="3Ag-sZ-ykK"/>
                                             <constraint firstItem="yOY-D6-3cb" firstAttribute="centerX" secondItem="TDK-Sy-jtx" secondAttribute="centerX" id="9cH-sZ-hVd"/>
+                                            <constraint firstItem="M0Q-HH-S4o" firstAttribute="top" secondItem="TDK-Sy-jtx" secondAttribute="top" constant="23" id="AnL-qp-TJ3"/>
                                             <constraint firstAttribute="bottom" secondItem="00G-jn-gHT" secondAttribute="bottom" id="KGW-4l-2zy"/>
+                                            <constraint firstItem="M0Q-HH-S4o" firstAttribute="leading" secondItem="TDK-Sy-jtx" secondAttribute="leading" constant="63" id="MUY-4R-SZM"/>
                                             <constraint firstItem="00G-jn-gHT" firstAttribute="top" secondItem="TDK-Sy-jtx" secondAttribute="top" id="O0W-sn-f0X"/>
                                             <constraint firstItem="yOY-D6-3cb" firstAttribute="centerX" secondItem="M0Q-HH-S4o" secondAttribute="centerX" id="Ret-wu-Bax"/>
                                             <constraint firstAttribute="bottom" secondItem="yOY-D6-3cb" secondAttribute="bottom" constant="27" id="nS3-Wi-CHp"/>
@@ -850,15 +926,18 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="5020"/>
+                    <connections>
+                        <segue destination="7bS-aM-IAM" kind="show" identifier="debttoequitytodividendyieldsegue" id="Erg-OH-vqK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gYG-S9-PIa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8028" y="-506"/>
+            <point key="canvasLocation" x="8967.2000000000007" y="-506.44677661169419"/>
         </scene>
-        <!--View Controller-->
+        <!--Dividend Yield View Controller-->
         <scene sceneID="hax-iE-JYe">
             <objects>
-                <viewController id="7bS-aM-IAM" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="7bS-aM-IAM" customClass="DividendYieldViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3c6-Q8-R7U"/>
                         <viewControllerLayoutGuide type="bottom" id="iO4-ad-ukv"/>
@@ -868,7 +947,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GDU-sv-mMa">
-                                <rect key="frame" x="0.0" y="20" width="375" height="5000"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="4956"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nrx-fM-wEW">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
@@ -906,6 +985,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="dividendyieldtogametimebutton:" destination="7bS-aM-IAM" eventType="touchUpInside" id="ULY-8C-dVu"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -941,15 +1023,18 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="5020"/>
+                    <connections>
+                        <segue destination="bzP-Fe-A6z" kind="show" identifier="dividendyieldtogametimesegue" id="JlN-im-9t6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tHq-fi-dE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9476" y="-506.44677661169419"/>
+            <point key="canvasLocation" x="10415.200000000001" y="-506.44677661169419"/>
         </scene>
-        <!--View Controller-->
+        <!--GameT Ime View Controller-->
         <scene sceneID="QvK-nw-JS3">
             <objects>
-                <viewController id="bzP-Fe-A6z" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="bzP-Fe-A6z" customClass="GameTImeViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="G37-IV-5IW"/>
                         <viewControllerLayoutGuide type="bottom" id="9Y0-LZ-gj3"/>
@@ -959,7 +1044,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSs-MP-pNi">
-                                <rect key="frame" x="0.0" y="20" width="375" height="5000"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="4956"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D1y-ng-gsB">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
@@ -995,6 +1080,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="gametimetosecondvisitbutton:" destination="bzP-Fe-A6z" eventType="touchUpInside" id="mgW-c5-gvL"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1030,10 +1118,31 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="5020"/>
+                    <connections>
+                        <segue destination="PFE-nh-dFs" kind="show" identifier="gametimetosecondvisitsegue" id="Dz1-uz-F1i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yju-xH-XRc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10692" y="-506"/>
+            <point key="canvasLocation" x="11631.200000000001" y="-506.44677661169419"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="h98-9N-G12">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uQd-jD-BOT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HcV-XG-6If">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XSa-vl-wa5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pRC-0Q-thY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72.799999999999997" y="37.331334332833585"/>
         </scene>
     </scenes>
     <resources>
@@ -1041,6 +1150,14 @@
         <image name="seablue" width="1280" height="800"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ysf-76-MVg"/>
+        <segue reference="Cne-K5-eHy"/>
+        <segue reference="Y4J-st-xob"/>
+        <segue reference="naz-iz-fAq"/>
+        <segue reference="GLy-7d-4ld"/>
+        <segue reference="CI1-kc-aGR"/>
+        <segue reference="Wb6-mf-0Wg"/>
+        <segue reference="YVc-mB-IzD"/>
+        <segue reference="uIO-PJ-zch"/>
+        <segue reference="Erg-OH-vqK"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -10,18 +10,15 @@ import UIKit
 
 class DebtEquityRatioViewController: UIViewController {
 
+    @IBAction func debttoequitytodividendyieldbutton(_ sender: Any) {
+        performSegue(withIdentifier: "debttoequitytodividendyieldsegue", sender: "")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
     
 
 }

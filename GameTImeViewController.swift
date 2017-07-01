@@ -1,5 +1,5 @@
 //
-//  IntroductionViewController.swift
+//  GameTImeViewController.swift
 //  TheWolfInc.
 //
 //  Created by Prabhav on 2/7/17.
@@ -8,19 +8,17 @@
 
 import UIKit
 
-class IntroductionViewController: UIViewController {
-
-    @IBAction func introtostockshortlistbutton(_ sender: Any) {
-        performSegue(withIdentifier: "introtostockshortlistsegue", sender: "")
+class GameTImeViewController: UIViewController {
+    @IBAction func gametimetosecondvisitbutton(_ sender: Any) {
+        performSegue(withIdentifier: "gametimetosecondvisitsegue", sender: "")
     }
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    
+   
 
 }

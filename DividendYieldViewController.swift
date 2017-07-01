@@ -1,5 +1,5 @@
 //
-//  IntroductionViewController.swift
+//  DividendYieldViewController.swift
 //  TheWolfInc.
 //
 //  Created by Prabhav on 2/7/17.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class IntroductionViewController: UIViewController {
-
-    @IBAction func introtostockshortlistbutton(_ sender: Any) {
-        performSegue(withIdentifier: "introtostockshortlistsegue", sender: "")
+class DividendYieldViewController: UIViewController {
+    @IBAction func dividendyieldtogametimebutton(_ sender: Any) {
+    performSegue(withIdentifier: "dividendyieldtogametimesegue", sender: "")
     }
+
     
     
     override func viewDidLoad() {
@@ -20,7 +20,5 @@ class IntroductionViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
-    
 
 }
