@@ -1,20 +1,21 @@
 //
-//  DividendYieldViewController.swift
+//  ROEViewController.swift
 //  TheWolfInc.
 //
-//  Created by Prabhav on 2/7/17.
+//  Created by Prabhav on 15/9/17.
 //  Copyright © 2017 Maverick Solutions. All rights reserved.
 //
 
 import UIKit
 
-class DividendYieldViewController: UIViewController {
-    @IBAction func dividendyieldtogametimebutton(_ sender: Any)
-    {
-    performSegue(withIdentifier: "dividendyieldtogametimesegue", sender: "")
-    }
-    @IBOutlet weak var videobroo: UIWebView!
+class ROEViewController: UIViewController {
 
+    @IBOutlet weak var wideo: UIWebView!
+    @IBAction func batton(_ sender: Any) {
+        performSegue(withIdentifier: "letsdothisshit", sender: "")
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,10 +26,8 @@ class DividendYieldViewController: UIViewController {
     func getmyvideobitch(videocode: String)
     {
         let url = URL(string: "https://www.youtube.com/embed/\(videocode)")
-        videobroo.loadRequest(URLRequest(url: url!))
+        wideo.loadRequest(URLRequest(url: url!))
     }
-    
 
-    
    
 }

@@ -11,14 +11,15 @@ import UIKit
 class HomeViewController: UIViewController {
    
     
-    @IBAction func hometosecondvisitbutton(_ sender: Any) {
-        performSegue(withIdentifier: "hometosecondvisitsegue", sender: "futurehendrix")
+    
+    @IBAction func hometomenubutton(_ sender: Any) {
+        performSegue(withIdentifier: "hometosecondvisitsegue", sender: "")
     }
     
-    
-    @IBAction func hometostockmarketintrobutton(_ sender: Any) {
+    @IBAction func introtointrobutton(_ sender: Any) {
         performSegue(withIdentifier: "hometointrosegue", sender: "")
     }
+  
 
     @IBOutlet weak var background: UIImageView!
     override func viewDidLoad() {

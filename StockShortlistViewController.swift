@@ -10,7 +10,7 @@ import UIKit
 
 class StockShortlistViewController: UIViewController {
     @IBAction func stockshortlisttoratiointrobutton(_ sender: Any) {
-        performSegue(withIdentifier: "stockshortlisttoratiointrosegue", sender: "")
+        performSegue(withIdentifier: "stockshortlisttoepssegue", sender: "")
     }
     
     

@@ -9,10 +9,11 @@
 import UIKit
 
 class GameTImeViewController: UIViewController {
-    @IBAction func gametimetosecondvisitbutton(_ sender: Any) {
-        performSegue(withIdentifier: "gametimetosecondvisitsegue", sender: "")
+   
+    @IBAction func lesgo(_ sender: Any) {performSegue(withIdentifier: "habibi", sender: "")
     }
-
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -31,15 +31,15 @@ class SecondVisitViewController: UIViewController {
     }
     
     @IBAction func secondvisittodebttoequitybutton(_ sender: Any) {
-         performSegue(withIdentifier: "secondvisittodebttoequitysegue", sender: "")
+         performSegue(withIdentifier: "wallahinewone", sender: "")
     }
     
     @IBAction func secondvisittodividendyieldbutton(_ sender: Any) {
-         performSegue(withIdentifier: "secondvisittodividendyieldsegue", sender: "")
+         performSegue(withIdentifier: "trappinglikemyfuckingreligion", sender: "")
     }
     
     @IBAction func secondvisittogametimebutton(_ sender: Any) {
-         performSegue(withIdentifier: "secondvisittogametimesegue", sender: "")
+         performSegue(withIdentifier: "enzayn", sender: "")
     }
     
     
