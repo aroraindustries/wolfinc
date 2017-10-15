@@ -11,7 +11,7 @@ import UIKit
 class DividendYieldViewController: UIViewController {
     @IBAction func dividendyieldtogametimebutton(_ sender: Any)
     {
-    performSegue(withIdentifier: "dividendyieldtogametimesegue", sender: "")
+    performSegue(withIdentifier: "visionsfam", sender: "")
     }
     @IBOutlet weak var videobroo: UIWebView!
 

@@ -39,7 +39,7 @@ class SecondVisitViewController: UIViewController {
     }
     
     @IBAction func secondvisittogametimebutton(_ sender: Any) {
-         performSegue(withIdentifier: "enzayn", sender: "")
+         performSegue(withIdentifier: "finalsegue", sender: "")
     }
     
     

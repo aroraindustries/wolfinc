@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MNs-aW-xpE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gnk-0Z-VGe">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
-        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,7 +13,6 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="HomeViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -148,8 +145,9 @@
                         <segue destination="1wS-8N-7JG" kind="show" identifier="hometointrosegue" id="naz-iz-fAq"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2890.4000000000001" y="37.331334332833585"/>
+            <point key="canvasLocation" x="6647.1999999999998" y="37.331334332833585"/>
         </scene>
         <!--Second Visit View Controller-->
         <scene sceneID="zSQ-WB-DAC">
@@ -164,7 +162,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ej-pb-fNB">
-                                <rect key="frame" x="0.0" y="64" width="375" height="706"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="750"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DB3-G7-PKz">
                                         <rect key="frame" x="0.0" y="-70" width="375" height="750"/>
@@ -194,7 +192,7 @@
                                                 </constraints>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content=" 3)  Earnings Per Share                  ">
+                                                        <fragment content=" 3)   Earnings Per Share                 ">
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <color key="NSColor" red="0.94604723732979179" green="0.98324870461407754" blue="0.99336870026525204" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -257,7 +255,7 @@
                                                 </constraints>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="1) General Introduction      ">
+                                                        <fragment content="1)  General Introduction      ">
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <color key="NSColor" red="0.95058941155986909" green="0.98481863884659537" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -278,7 +276,7 @@
                                                 </constraints>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="5)  Return on Equity %                ">
+                                                        <fragment content="5)   Return on Equity %               ">
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <color key="NSColor" red="0.94604723732979179" green="0.98324870461407754" blue="0.99336870026525204" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -317,7 +315,7 @@
                                                 <rect key="frame" x="0.0" y="575" width="375" height="65"/>
                                                 <state key="normal">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="7)      ">
+                                                        <fragment content="7)     ">
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <color key="NSColor" red="0.94604723732979179" green="0.98324870461407754" blue="0.99336870026525204" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -350,7 +348,7 @@
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
-                                                        <fragment content="                 ">
+                                                        <fragment content="                ">
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <color key="NSColor" red="0.94604723732979179" green="0.98324870461407754" blue="0.99336870026525204" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -424,7 +422,7 @@
                         <segue destination="hCB-gd-THS" kind="show" identifier="secondvisittopesegue" id="CI1-kc-aGR"/>
                         <segue destination="gdF-cn-iwS" kind="show" identifier="wallahinewone" id="rrV-bJ-8rt"/>
                         <segue destination="7bS-aM-IAM" kind="show" identifier="trappinglikemyfuckingreligion" id="MbO-eB-Occ"/>
-                        <segue destination="bzP-Fe-A6z" kind="show" identifier="enzayn" id="ycZ-IX-4H5"/>
+                        <segue destination="wtc-KQ-WOk" kind="show" identifier="finalsegue" id="e7r-xd-wYr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p8R-hg-dpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -614,7 +612,7 @@ Here at Wolf Inc, we’re going to teach you how to buy stocks, just like “We 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8FH-VG-7Cs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4420" y="-1150.5247376311845"/>
+            <point key="canvasLocation" x="8176.8000000000002" y="-1150.5247376311845"/>
         </scene>
         <!--Stock Shortlist View Controller-->
         <scene sceneID="ZcQ-d1-7xp">
@@ -629,7 +627,7 @@ Here at Wolf Inc, we’re going to teach you how to buy stocks, just like “We 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unh-PF-AGc">
-                                <rect key="frame" x="0.0" y="64" width="375" height="2936"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="2980"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FNU-sh-jU6">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
@@ -667,19 +665,6 @@ Here at Wolf Inc, we’re going to teach you how to buy stocks, just like “We 
                                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="uPB-mC-H9W">
-                                                <rect key="frame" x="0.0" y="110" width="375" height="842"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="842" id="UsB-9c-ptR"/>
-                                                </constraints>
-                                                <string key="text">Alright! We’re all pumped up and ready to make some fresh green off the stock market, but how do we choose a good stock?
-                                                                                             Well Young Senpai, before investing you must always remember the following line - You are not just investing in a stock, but rather in a company. Remember stocks are actually “shares” in a company, and if the company does well, so does the stock!
-                                                                                         Here are the steps to filtering out the golden companies .                                                                             1) Write Down A List of Trending Sectors:             A trending sector is simply a part of the economy which is growing rapidly and receiving a lot of demand from the country. A good example nowadays would be the Electric Cars sector, Social Media sector and even Artificial Intelligence sector. Newspapers can also help narrow down your list since they contain hints about trending sectors. For example if the headline reads : “Oil Prices hit all time lows”, we now know the Oil sector isn’t popping so it won’t make our list. The headline could also be more subtle and read “Government decides to invest $30 billion in construction projects”,which signals to us that the Infrastructure sector has definitely got to make the list. At the end of step 1, you should have a list of about 4-5 sectors which are going to be rockstars!                                                   
-                                                                                        </string>
-                                                <color key="textColor" red="0.98926558360000005" green="0.98926558360000005" blue="0.98926558360000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daily-news" translatesAutoresizingMaskIntoConstraints="NO" id="hWd-By-t8b">
                                                 <rect key="frame" x="0.0" y="960" width="375" height="166"/>
                                                 <constraints>
@@ -707,6 +692,19 @@ Here at Wolf Inc, we’re going to teach you how to buy stocks, just like “We 
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="uPB-mC-H9W">
+                                                <rect key="frame" x="0.0" y="64" width="375" height="842"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="842" id="UsB-9c-ptR"/>
+                                                </constraints>
+                                                <string key="text">Alright! We’re all pumped up and ready to make some fresh green off the stock market, but how do we choose a good stock?
+                                                                                             Well Young Senpai, before investing you must always remember the following line - You are not just investing in a stock, but rather in a company. Remember stocks are actually “shares” in a company, and if the company does well, so does the stock!
+                                                                                         Here are the steps to filtering out the golden companies .                                                                             1) Write Down A List of Trending Sectors:             A trending sector is simply a part of the economy which is growing rapidly and receiving a lot of demand from the country. A good example nowadays would be the Electric Cars sector, Social Media sector and even Artificial Intelligence sector. Newspapers can also help narrow down your list since they contain hints about trending sectors. For example if the headline reads : “Oil Prices hit all time lows”, we now know the Oil sector isn’t popping so it won’t make our list. The headline could also be more subtle and read “Government decides to invest $30 billion in construction projects”,which signals to us that the Infrastructure sector has definitely got to make the list. At the end of step 1, you should have a list of about 4-5 sectors which are going to be rockstars!                                                   
+                                                                                        </string>
+                                                <color key="textColor" red="0.98926558360000005" green="0.98926558360000005" blue="0.98926558360000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -732,6 +730,7 @@ Here at Wolf Inc, we’re going to teach you how to buy stocks, just like “We 
                                             <constraint firstItem="hWd-By-t8b" firstAttribute="leading" secondItem="FNU-sh-jU6" secondAttribute="leading" id="URS-Xa-FgR"/>
                                             <constraint firstItem="uPB-mC-H9W" firstAttribute="leading" secondItem="FNU-sh-jU6" secondAttribute="leading" id="VDK-6G-7ag"/>
                                             <constraint firstItem="ekG-JR-dVp" firstAttribute="top" secondItem="CUm-wb-JfR" secondAttribute="bottom" constant="18" id="Vc4-TG-sLx"/>
+                                            <constraint firstItem="BUz-gs-fRg" firstAttribute="centerX" secondItem="FNU-sh-jU6" secondAttribute="centerX" id="XfB-hp-PNN"/>
                                             <constraint firstAttribute="height" constant="5000" id="Xgr-aJ-9hS"/>
                                             <constraint firstItem="O8E-c6-FIf" firstAttribute="leading" secondItem="FNU-sh-jU6" secondAttribute="leading" id="awa-47-ANg"/>
                                             <constraint firstItem="BUz-gs-fRg" firstAttribute="top" secondItem="FNU-sh-jU6" secondAttribute="top" constant="22" id="byt-yR-AYQ"/>
@@ -741,10 +740,10 @@ Here at Wolf Inc, we’re going to teach you how to buy stocks, just like “We 
                                             <constraint firstAttribute="trailing" secondItem="cCU-kJ-H6V" secondAttribute="trailing" id="iIh-aG-vZB"/>
                                             <constraint firstItem="CUm-wb-JfR" firstAttribute="top" secondItem="FNU-sh-jU6" secondAttribute="top" constant="1696" id="qAj-FN-0oI"/>
                                             <constraint firstItem="ekG-JR-dVp" firstAttribute="leading" secondItem="cCU-kJ-H6V" secondAttribute="leading" id="sKL-Yg-hQE"/>
-                                            <constraint firstItem="hWd-By-t8b" firstAttribute="top" secondItem="uPB-mC-H9W" secondAttribute="bottom" constant="8" symbolic="YES" id="tLD-qO-aPn"/>
+                                            <constraint firstItem="hWd-By-t8b" firstAttribute="top" secondItem="uPB-mC-H9W" secondAttribute="bottom" constant="54" id="tLD-qO-aPn"/>
                                             <constraint firstItem="O8E-c6-FIf" firstAttribute="top" secondItem="cCU-kJ-H6V" secondAttribute="bottom" constant="174" id="uEu-eh-bcq"/>
                                             <constraint firstItem="ekG-JR-dVp" firstAttribute="leading" secondItem="FNU-sh-jU6" secondAttribute="leading" id="vyb-tP-3op"/>
-                                            <constraint firstItem="uPB-mC-H9W" firstAttribute="top" secondItem="BUz-gs-fRg" secondAttribute="bottom" constant="54" id="xH1-EF-2aj"/>
+                                            <constraint firstItem="uPB-mC-H9W" firstAttribute="top" secondItem="BUz-gs-fRg" secondAttribute="bottom" constant="8" id="xH1-EF-2aj"/>
                                             <constraint firstAttribute="trailing" secondItem="ekG-JR-dVp" secondAttribute="trailing" id="xIS-nM-rPw"/>
                                         </constraints>
                                     </view>
@@ -815,7 +814,7 @@ Customer Goods : Nestle,Adidas, Nike
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abo-RX-kl9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5962.3999999999996" y="-506.44677661169419"/>
+            <point key="canvasLocation" x="9719.2000000000007" y="-506.44677661169419"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Db3-rv-2hm">
@@ -830,7 +829,7 @@ Customer Goods : Nestle,Adidas, Nike
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ICn-op-pYP">
-                                <rect key="frame" x="0.0" y="108" width="375" height="1982"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="2026"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HTR-8a-xDY">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
@@ -1006,7 +1005,7 @@ Now, if I was deciding to invest in Pizza Hut or We The Best Pizza’s, which on
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sw2-I0-9CN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8264.7999999999993" y="-506.44677661169419"/>
+            <point key="canvasLocation" x="12021.6" y="-506.44677661169419"/>
         </scene>
         <!--Ratio View Controller-->
         <scene sceneID="qeV-3o-T3O">
@@ -1021,7 +1020,7 @@ Now, if I was deciding to invest in Pizza Hut or We The Best Pizza’s, which on
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tbu-nd-EJZ">
-                                <rect key="frame" x="0.0" y="64" width="375" height="2936"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="2980"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yBz-n0-Fct">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
@@ -1161,12 +1160,12 @@ Easy Right? Here try for yourself:
                     <size key="freeformSize" width="375" height="3000"/>
                     <connections>
                         <outlet property="peratiovideo" destination="omU-yj-69D" id="tTI-WN-IpN"/>
-                        <segue destination="gdF-cn-iwS" kind="presentation" identifier="newonefam" id="gG6-bc-1Cp"/>
+                        <segue destination="gdF-cn-iwS" kind="show" identifier="newonefam" id="gG6-bc-1Cp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q6j-Ah-m9J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9509.6000000000004" y="-506.44677661169419"/>
+            <point key="canvasLocation" x="13266.4" y="-506.44677661169419"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="URG-Nb-JhV">
@@ -1181,29 +1180,29 @@ Easy Right? Here try for yourself:
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HIx-2H-C7y">
-                                <rect key="frame" x="0.0" y="64" width="375" height="2836"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="2880"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SjN-sf-f8r">
-                                        <rect key="frame" x="-1" y="0.0" width="375" height="2900"/>
+                                        <rect key="frame" x="-1" y="128" width="377" height="2900"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2900" id="hTY-Ba-bZd"/>
                                         </constraints>
                                     </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="seablue" translatesAutoresizingMaskIntoConstraints="NO" id="QaH-4Z-Y3D">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2772"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seablue" translatesAutoresizingMaskIntoConstraints="NO" id="QaH-4Z-Y3D">
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="2944"/>
                                     </imageView>
                                     <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kFr-5b-fJY">
-                                        <rect key="frame" x="0.0" y="2415" width="375" height="256"/>
+                                        <rect key="frame" x="-1" y="2393" width="386" height="256"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="256" id="4Ep-Lp-5d8"/>
                                         </constraints>
                                     </webView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="3i0-kh-8fl">
-                                        <rect key="frame" x="0.0" y="234" width="375" height="1086"/>
+                                        <rect key="frame" x="0.0" y="239" width="375" height="1048"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1086" id="Wbd-Rm-AqV"/>
+                                            <constraint firstAttribute="height" constant="1048" id="Wbd-Rm-AqV"/>
                                         </constraints>
                                         <string key="text">Lamborghinis, Ferraris, Penthouses and Rolexes. Now that you are motivated to go get that money, let’s move onto our next jigsaw piece which will help us in telling whether our shortlisted companies are cash or trash - The Return on Equity Percentage.
                                                                                          Hold up bruh, what is this Equity that you’re talking about? Equity is simply the amount of money that investors have put into a business.
@@ -1224,7 +1223,7 @@ What is Nicki’s Kicks Return on Equity %?
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="mh2-Tb-zrN">
-                                        <rect key="frame" x="0.0" y="1479" width="375" height="928"/>
+                                        <rect key="frame" x="1" y="1471" width="375" height="928"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="928" id="ImB-OU-upZ"/>
                                         </constraints>
@@ -1241,9 +1240,15 @@ What is Nicki’s Kicks Return on Equity %?
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YTnS2vlv" translatesAutoresizingMaskIntoConstraints="NO" id="Fkd-zt-L8J">
-                                        <rect key="frame" x="0.0" y="65" width="375" height="176"/>
+                                        <rect key="frame" x="1" y="55" width="375" height="139"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="176" id="T1O-I2-3o0"/>
+                                            <constraint firstAttribute="height" constant="139" id="T1O-I2-3o0"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="drake-rihanna-nicki" translatesAutoresizingMaskIntoConstraints="NO" id="GJw-2P-MlV">
+                                        <rect key="frame" x="0.0" y="1277" width="375" height="186"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="186" id="Liq-us-nTL"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1je-qe-Ncn">
@@ -1262,19 +1267,13 @@ What is Nicki’s Kicks Return on Equity %?
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="drake-rihanna-nicki" translatesAutoresizingMaskIntoConstraints="NO" id="GJw-2P-MlV">
-                                        <rect key="frame" x="0.0" y="1274" width="375" height="197"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="197" id="Liq-us-nTL"/>
-                                        </constraints>
-                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ch-Do-dZ8">
-                                        <rect key="frame" x="129" y="2805" width="116" height="43"/>
+                                        <rect key="frame" x="80" y="2740" width="214" height="65"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="116" id="dOZ-88-ngq"/>
-                                            <constraint firstAttribute="height" constant="43" id="zum-Ji-dEr"/>
+                                            <constraint firstAttribute="width" constant="214" id="dOZ-88-ngq"/>
+                                            <constraint firstAttribute="height" constant="65" id="zum-Ji-dEr"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="21"/>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="39"/>
                                         <state key="normal" title="Next Page" backgroundImage="os8fo">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -1286,43 +1285,43 @@ What is Nicki’s Kicks Return on Equity %?
                                 <constraints>
                                     <constraint firstItem="3i0-kh-8fl" firstAttribute="leading" secondItem="GJw-2P-MlV" secondAttribute="leading" id="0qI-ht-Vxy"/>
                                     <constraint firstItem="3i0-kh-8fl" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" id="1cf-IW-dbK"/>
-                                    <constraint firstAttribute="trailing" secondItem="mh2-Tb-zrN" secondAttribute="trailing" id="1g8-9Z-CrG"/>
-                                    <constraint firstItem="GJw-2P-MlV" firstAttribute="leading" secondItem="mh2-Tb-zrN" secondAttribute="leading" id="3eW-yM-YVa"/>
+                                    <constraint firstAttribute="trailing" secondItem="mh2-Tb-zrN" secondAttribute="trailing" constant="-1" id="1g8-9Z-CrG"/>
+                                    <constraint firstItem="GJw-2P-MlV" firstAttribute="leading" secondItem="mh2-Tb-zrN" secondAttribute="leading" constant="-1" id="3eW-yM-YVa"/>
                                     <constraint firstItem="3i0-kh-8fl" firstAttribute="trailing" secondItem="GJw-2P-MlV" secondAttribute="trailing" id="3jF-uA-K98"/>
                                     <constraint firstAttribute="trailing" secondItem="GJw-2P-MlV" secondAttribute="trailing" id="40w-rE-0JK"/>
-                                    <constraint firstItem="mh2-Tb-zrN" firstAttribute="leading" secondItem="kFr-5b-fJY" secondAttribute="leading" id="60Z-0j-OSx"/>
-                                    <constraint firstItem="QaH-4Z-Y3D" firstAttribute="top" secondItem="HIx-2H-C7y" secondAttribute="top" id="812-cH-Q45"/>
-                                    <constraint firstItem="kFr-5b-fJY" firstAttribute="top" secondItem="mh2-Tb-zrN" secondAttribute="bottom" constant="8" symbolic="YES" id="ATu-0o-R2b"/>
-                                    <constraint firstItem="3i0-kh-8fl" firstAttribute="top" secondItem="HIx-2H-C7y" secondAttribute="top" constant="234" id="CaJ-v0-jSP"/>
-                                    <constraint firstItem="Fkd-zt-L8J" firstAttribute="leading" secondItem="3i0-kh-8fl" secondAttribute="leading" id="Fha-wC-59t"/>
-                                    <constraint firstItem="Fkd-zt-L8J" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" id="Iaj-Kp-Xbi"/>
+                                    <constraint firstItem="mh2-Tb-zrN" firstAttribute="leading" secondItem="kFr-5b-fJY" secondAttribute="leading" constant="2" id="60Z-0j-OSx"/>
+                                    <constraint firstItem="QaH-4Z-Y3D" firstAttribute="top" secondItem="HIx-2H-C7y" secondAttribute="top" constant="-64" id="812-cH-Q45"/>
+                                    <constraint firstItem="kFr-5b-fJY" firstAttribute="top" secondItem="mh2-Tb-zrN" secondAttribute="bottom" constant="-6" id="ATu-0o-R2b"/>
+                                    <constraint firstItem="3i0-kh-8fl" firstAttribute="top" secondItem="HIx-2H-C7y" secondAttribute="top" constant="239" id="CaJ-v0-jSP"/>
+                                    <constraint firstItem="Fkd-zt-L8J" firstAttribute="leading" secondItem="3i0-kh-8fl" secondAttribute="leading" constant="1" id="Fha-wC-59t"/>
+                                    <constraint firstItem="Fkd-zt-L8J" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" constant="1" id="Iaj-Kp-Xbi"/>
                                     <constraint firstItem="1je-qe-Ncn" firstAttribute="top" secondItem="HIx-2H-C7y" secondAttribute="topMargin" id="KP0-Hk-TZv"/>
-                                    <constraint firstAttribute="bottom" secondItem="9Ch-Do-dZ8" secondAttribute="bottom" constant="32" id="Nac-vl-gVm"/>
+                                    <constraint firstAttribute="bottom" secondItem="9Ch-Do-dZ8" secondAttribute="bottom" constant="75" id="Nac-vl-gVm"/>
                                     <constraint firstItem="9Ch-Do-dZ8" firstAttribute="centerX" secondItem="HIx-2H-C7y" secondAttribute="centerX" id="RDd-0G-OVD"/>
-                                    <constraint firstItem="QaH-4Z-Y3D" firstAttribute="trailing" secondItem="kFr-5b-fJY" secondAttribute="trailing" id="ToV-ej-BRJ"/>
+                                    <constraint firstItem="QaH-4Z-Y3D" firstAttribute="trailing" secondItem="kFr-5b-fJY" secondAttribute="trailing" constant="-10" id="ToV-ej-BRJ"/>
                                     <constraint firstAttribute="trailing" secondItem="3i0-kh-8fl" secondAttribute="trailing" id="UXS-Ja-WyB"/>
-                                    <constraint firstItem="GJw-2P-MlV" firstAttribute="trailing" secondItem="mh2-Tb-zrN" secondAttribute="trailing" id="VhH-3M-j6r"/>
-                                    <constraint firstItem="Fkd-zt-L8J" firstAttribute="top" secondItem="1je-qe-Ncn" secondAttribute="bottom" constant="8" symbolic="YES" id="Xra-wq-snq"/>
-                                    <constraint firstAttribute="trailing" secondItem="kFr-5b-fJY" secondAttribute="trailing" id="bcm-7j-o5a"/>
-                                    <constraint firstItem="Fkd-zt-L8J" firstAttribute="trailing" secondItem="3i0-kh-8fl" secondAttribute="trailing" id="c2S-zh-7ve"/>
+                                    <constraint firstItem="GJw-2P-MlV" firstAttribute="trailing" secondItem="mh2-Tb-zrN" secondAttribute="trailing" constant="-1" id="VhH-3M-j6r"/>
+                                    <constraint firstItem="Fkd-zt-L8J" firstAttribute="top" secondItem="1je-qe-Ncn" secondAttribute="bottom" constant="-2" id="Xra-wq-snq"/>
+                                    <constraint firstAttribute="trailing" secondItem="kFr-5b-fJY" secondAttribute="trailing" constant="-10" id="bcm-7j-o5a"/>
+                                    <constraint firstItem="Fkd-zt-L8J" firstAttribute="trailing" secondItem="3i0-kh-8fl" secondAttribute="trailing" constant="1" id="c2S-zh-7ve"/>
                                     <constraint firstItem="GJw-2P-MlV" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" id="c9a-Nc-A8z"/>
                                     <constraint firstItem="SjN-sf-f8r" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" constant="-1" id="cDC-lD-Rfs"/>
                                     <constraint firstItem="1je-qe-Ncn" firstAttribute="centerX" secondItem="HIx-2H-C7y" secondAttribute="centerX" constant="11.5" id="cwP-Ge-VC9"/>
                                     <constraint firstItem="QaH-4Z-Y3D" firstAttribute="leading" secondItem="GJw-2P-MlV" secondAttribute="leading" id="dWy-Bt-tvi"/>
-                                    <constraint firstItem="Fkd-zt-L8J" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" id="e83-yV-jo5"/>
+                                    <constraint firstItem="Fkd-zt-L8J" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" constant="1" id="e83-yV-jo5"/>
                                     <constraint firstItem="SjN-sf-f8r" firstAttribute="centerX" secondItem="9Ch-Do-dZ8" secondAttribute="centerX" id="f1t-mS-88F"/>
-                                    <constraint firstItem="kFr-5b-fJY" firstAttribute="centerX" secondItem="9Ch-Do-dZ8" secondAttribute="centerX" id="gsF-b3-IBA"/>
-                                    <constraint firstItem="SjN-sf-f8r" firstAttribute="bottom" secondItem="QaH-4Z-Y3D" secondAttribute="bottom" id="kqa-P6-2n9"/>
-                                    <constraint firstItem="SjN-sf-f8r" firstAttribute="top" secondItem="QaH-4Z-Y3D" secondAttribute="top" id="l3a-lt-pDI"/>
-                                    <constraint firstAttribute="bottom" secondItem="QaH-4Z-Y3D" secondAttribute="bottom" constant="-20" id="mUB-f4-ZhO"/>
-                                    <constraint firstItem="mh2-Tb-zrN" firstAttribute="trailing" secondItem="kFr-5b-fJY" secondAttribute="trailing" id="oMO-s9-eII"/>
-                                    <constraint firstItem="mh2-Tb-zrN" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" id="ppY-ts-W0x"/>
-                                    <constraint firstAttribute="trailing" secondItem="Fkd-zt-L8J" secondAttribute="trailing" id="rJy-sK-h5F"/>
-                                    <constraint firstItem="kFr-5b-fJY" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" id="rkQ-dd-jki"/>
-                                    <constraint firstAttribute="trailing" secondItem="Fkd-zt-L8J" secondAttribute="trailing" id="sUR-tY-0xv"/>
+                                    <constraint firstItem="kFr-5b-fJY" firstAttribute="centerX" secondItem="9Ch-Do-dZ8" secondAttribute="centerX" constant="4.5" id="gsF-b3-IBA"/>
+                                    <constraint firstItem="SjN-sf-f8r" firstAttribute="bottom" secondItem="QaH-4Z-Y3D" secondAttribute="bottom" constant="148" id="kqa-P6-2n9"/>
+                                    <constraint firstItem="SjN-sf-f8r" firstAttribute="top" secondItem="QaH-4Z-Y3D" secondAttribute="top" constant="192" id="l3a-lt-pDI"/>
+                                    <constraint firstAttribute="bottom" secondItem="QaH-4Z-Y3D" secondAttribute="bottom" id="mUB-f4-ZhO"/>
+                                    <constraint firstItem="mh2-Tb-zrN" firstAttribute="trailing" secondItem="kFr-5b-fJY" secondAttribute="trailing" constant="-9" id="oMO-s9-eII"/>
+                                    <constraint firstItem="mh2-Tb-zrN" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" constant="1" id="ppY-ts-W0x"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fkd-zt-L8J" secondAttribute="trailing" constant="-1" id="rJy-sK-h5F"/>
+                                    <constraint firstItem="kFr-5b-fJY" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" constant="-1" id="rkQ-dd-jki"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fkd-zt-L8J" secondAttribute="trailing" constant="-1" id="sUR-tY-0xv"/>
                                     <constraint firstItem="1je-qe-Ncn" firstAttribute="leading" secondItem="HIx-2H-C7y" secondAttribute="leading" constant="80" id="vZ7-gt-eTF"/>
-                                    <constraint firstItem="GJw-2P-MlV" firstAttribute="top" secondItem="HIx-2H-C7y" secondAttribute="top" constant="1274" id="vhX-i6-SRp"/>
-                                    <constraint firstItem="mh2-Tb-zrN" firstAttribute="top" secondItem="GJw-2P-MlV" secondAttribute="bottom" constant="8" symbolic="YES" id="y9A-Cv-EtI"/>
+                                    <constraint firstItem="GJw-2P-MlV" firstAttribute="top" secondItem="HIx-2H-C7y" secondAttribute="top" constant="1277" id="vhX-i6-SRp"/>
+                                    <constraint firstItem="mh2-Tb-zrN" firstAttribute="top" secondItem="GJw-2P-MlV" secondAttribute="bottom" constant="8" id="y9A-Cv-EtI"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -1343,7 +1342,7 @@ What is Nicki’s Kicks Return on Equity %?
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t9M-Oh-Tlr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11031.200000000001" y="-871.66416791604206"/>
+            <point key="canvasLocation" x="14904.799999999999" y="-551.42428785607206"/>
         </scene>
         <!--Dividend Yield View Controller-->
         <scene sceneID="hax-iE-JYe">
@@ -1358,7 +1357,7 @@ What is Nicki’s Kicks Return on Equity %?
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GDU-sv-mMa">
-                                <rect key="frame" x="0.0" y="64" width="375" height="3686"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="3730"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nrx-fM-wEW">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="5000"/>
@@ -1548,50 +1547,44 @@ Because Jay-Shock has more money from its investors than it has borrowed from th
                     <size key="freeformSize" width="375" height="3750"/>
                     <connections>
                         <outlet property="videobroo" destination="X7j-0e-2vD" id="476-ap-ji2"/>
-                        <segue destination="bzP-Fe-A6z" kind="show" identifier="dividendyieldtogametimesegue" id="JlN-im-9t6"/>
+                        <segue destination="wtc-KQ-WOk" kind="show" identifier="visionsfam" id="CGA-9w-j7j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tHq-fi-dE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12293.6" y="-506.44677661169419"/>
+            <point key="canvasLocation" x="16586" y="-169"/>
         </scene>
-        <!--GameT Ime View Controller-->
-        <scene sceneID="QvK-nw-JS3">
+        <!--Final Motherfucker View Controller-->
+        <scene sceneID="sut-Lc-qdv">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="bzP-Fe-A6z" customClass="GameTImeViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wtc-KQ-WOk" customClass="FinalMotherfuckerViewController" customModule="TheWolfInc_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="G37-IV-5IW"/>
-                        <viewControllerLayoutGuide type="bottom" id="9Y0-LZ-gj3"/>
+                        <viewControllerLayoutGuide type="top" id="vF8-vs-hPi"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ah3-CW-iBl"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Mpc-Fm-rfK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1700"/>
+                    <view key="view" contentMode="scaleToFill" id="kAP-ov-LHp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSs-MP-pNi">
-                                <rect key="frame" x="0.0" y="64" width="375" height="1636"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gjq-yN-x2Q">
+                                <rect key="frame" x="0.0" y="20" width="375" height="1880"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D1y-ng-gsB">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1636"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awe-Yg-CiC">
+                                        <rect key="frame" x="0.0" y="64" width="375" height="1900"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seablue" translatesAutoresizingMaskIntoConstraints="NO" id="ti4-rY-2Vb">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="1636"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seablue" translatesAutoresizingMaskIntoConstraints="NO" id="a2N-8W-ea9">
+                                                <rect key="frame" x="0.0" y="-73" width="375" height="1973"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r59-dg-tOJ">
-                                                <rect key="frame" x="1909" y="24" width="177" height="53"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Game Time ">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.93792854309603524" green="1" blue="0.94614697109310208" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="39" name="AvenirNextCondensed-BoldItalic"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="4I7-nT-sVa">
-                                                <rect key="frame" x="0.0" y="106" width="375" height="814"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AAEAAQAAAAAAAAM9AAAAJDVkNTlhNGVjLTJkMTgtNDc2Mi04NzdhLTI4NWExZThmYTU1Mw" translatesAutoresizingMaskIntoConstraints="NO" id="cG3-w1-nbl">
+                                                <rect key="frame" x="0.0" y="994" width="375" height="201"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="814" id="jSO-1s-QhI"/>
+                                                    <constraint firstAttribute="height" constant="201" id="CXv-7u-KLm"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="I9i-AP-5Hc">
+                                                <rect key="frame" x="0.0" y="188" width="375" height="817"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="817" id="bQa-Jl-BBa"/>
                                                 </constraints>
                                                 <string key="text">Lights, Camera - Money! We’ve finally reached the stage where our shortlisted companies have filtered out to have: - 
 
@@ -1611,131 +1604,131 @@ But, if you think you’re ready to play with the big boys here are some links t
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AAEAAQAAAAAAAAM9AAAAJDVkNTlhNGVjLTJkMTgtNDc2Mi04NzdhLTI4NWExZThmYTU1Mw" translatesAutoresizingMaskIntoConstraints="NO" id="AJh-Kd-r8i">
-                                                <rect key="frame" x="0.0" y="928" width="375" height="167"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="N7I-kX-9Da">
+                                                <rect key="frame" x="0.0" y="1218" width="375" height="461"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="167" id="yY5-1y-xj8"/>
+                                                    <constraint firstAttribute="height" constant="461" id="r3H-Mu-3ew"/>
                                                 </constraints>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j5t-zN-dVA">
-                                                <rect key="frame" x="96" y="1519" width="183" height="72"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="72" id="Gnq-JJ-zxQ"/>
-                                                </constraints>
-                                                <state key="normal" backgroundImage="os8fo">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Return Home">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.9715336439960377" green="1" blue="0.9716776832948858" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="29" name="BodoniSvtyTwoSCITCTT-Book"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </state>
-                                                <connections>
-                                                    <action selector="lesgo:" destination="bzP-Fe-A6z" eventType="touchUpInside" id="tTU-zd-bKK"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-Lj-Jos">
-                                                <rect key="frame" x="94" y="26" width="187" height="51"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Game Time!">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.97106727000942139" green="1" blue="0.94248424629506855" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="37" name="AvenirNextCondensed-BoldItalic"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="ti4-rY-2Vb" firstAttribute="leading" secondItem="AJh-Kd-r8i" secondAttribute="leading" id="3dO-7P-CUx"/>
-                                            <constraint firstItem="ti4-rY-2Vb" firstAttribute="leading" secondItem="D1y-ng-gsB" secondAttribute="leading" id="99u-b8-tNZ"/>
-                                            <constraint firstItem="r59-dg-tOJ" firstAttribute="leading" secondItem="D1y-ng-gsB" secondAttribute="leading" constant="1909" id="9T1-S3-xoA"/>
-                                            <constraint firstItem="ti4-rY-2Vb" firstAttribute="trailing" secondItem="4I7-nT-sVa" secondAttribute="trailing" id="D9s-3k-fFS"/>
-                                            <constraint firstItem="4I7-nT-sVa" firstAttribute="trailing" secondItem="AJh-Kd-r8i" secondAttribute="trailing" id="JHw-i4-clG"/>
-                                            <constraint firstItem="AJh-Kd-r8i" firstAttribute="centerX" secondItem="j5t-zN-dVA" secondAttribute="centerX" id="JYJ-u1-e4L"/>
-                                            <constraint firstItem="ti4-rY-2Vb" firstAttribute="top" secondItem="D1y-ng-gsB" secondAttribute="top" id="Kcs-d3-BFc"/>
-                                            <constraint firstItem="4I7-nT-sVa" firstAttribute="top" secondItem="BrB-Lj-Jos" secondAttribute="bottom" constant="29" id="ORm-ff-gS2"/>
-                                            <constraint firstAttribute="bottom" secondItem="j5t-zN-dVA" secondAttribute="bottom" constant="45" id="P4C-2u-Kif"/>
-                                            <constraint firstItem="4I7-nT-sVa" firstAttribute="leading" secondItem="AJh-Kd-r8i" secondAttribute="leading" id="PYA-x6-meu"/>
-                                            <constraint firstItem="r59-dg-tOJ" firstAttribute="top" secondItem="D1y-ng-gsB" secondAttribute="top" constant="24" id="VTa-Cg-h6B"/>
-                                            <constraint firstItem="j5t-zN-dVA" firstAttribute="leading" secondItem="D1y-ng-gsB" secondAttribute="leading" constant="96" id="XTR-Ee-ruw"/>
-                                            <constraint firstAttribute="bottom" secondItem="ti4-rY-2Vb" secondAttribute="bottom" id="cnU-GJ-sj7"/>
-                                            <constraint firstItem="j5t-zN-dVA" firstAttribute="centerX" secondItem="D1y-ng-gsB" secondAttribute="centerX" id="eXu-W7-Mju"/>
-                                            <constraint firstItem="BrB-Lj-Jos" firstAttribute="baseline" secondItem="r59-dg-tOJ" secondAttribute="firstBaseline" id="j6R-0I-fsc"/>
-                                            <constraint firstItem="BrB-Lj-Jos" firstAttribute="leading" secondItem="D1y-ng-gsB" secondAttribute="leading" constant="94" id="oKZ-8X-O2W"/>
-                                            <constraint firstItem="AJh-Kd-r8i" firstAttribute="top" secondItem="4I7-nT-sVa" secondAttribute="bottom" constant="8" symbolic="YES" id="ott-mT-hDa"/>
-                                            <constraint firstItem="BrB-Lj-Jos" firstAttribute="centerX" secondItem="4I7-nT-sVa" secondAttribute="centerX" id="ql0-aY-sYF"/>
-                                        </constraints>
-                                    </view>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="2Kj-ZS-WBt">
-                                        <rect key="frame" x="0.0" y="1097" width="375" height="389"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="389" id="giK-1Z-46U"/>
-                                        </constraints>
-                                        <string key="text">So, it appears that we have come to the end of a journey filled with Numbers, Celebrities and Money. But as this journey finishes you have evolved from an amatuer investor into a Money hunting wolf of your own street! Wolf Incorporated’s CEO, Prabhav Arora wishes you the best of luck in your pursuit of the money and many rockstar stocks to come. Whilst he is usually found hunting rockstar stocks, Prabhav can also be reached at : officialprabhav@gmail.com. His final piece of advice is:
+                                                <string key="text">So, it appears that we have come to the end of a journey filled with Numbers, Celebrities and Money. But as this journey finishes you have evolved from an amatuer investor into a Money hunting wolf of your own street! Wolf Incorporated’s CEO, Prabhav Arora wishes you the best of luck in your pursuit of the money and many rockstar stocks to come. Whilst he is usually found hunting rockstar stocks, Prabhav can also be reached at : officialprabhav@gmail.com. His final piece of advice is:
 
 Sure money doesn't buy happiness, but would you rather your'e tears fell on Bugatti leather or Toyota Cotton?
 
 (T&amp;C -Wolf. Inc isn’t responsible for any losses or gains made by viewers of this app.) 
 </string>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDB-xg-l4m">
+                                                <rect key="frame" x="77" y="1674" width="221" height="93"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="93" id="gvD-aq-fXb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="39"/>
+                                                <state key="normal" title="Return Home" backgroundImage="os8fo">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="homebutton:" destination="wtc-KQ-WOk" eventType="touchUpInside" id="0OP-Hd-g3E"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wall-street" translatesAutoresizingMaskIntoConstraints="NO" id="UJD-Yh-yTe">
+                                                <rect key="frame" x="0.0" y="21" width="375" height="141"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="141" id="R6j-eb-IQF"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="N7I-kX-9Da" firstAttribute="centerX" secondItem="kDB-xg-l4m" secondAttribute="centerX" id="0B4-i3-cTL"/>
+                                            <constraint firstAttribute="trailing" secondItem="a2N-8W-ea9" secondAttribute="trailing" id="9G1-RZ-Zjb"/>
+                                            <constraint firstItem="N7I-kX-9Da" firstAttribute="top" secondItem="cG3-w1-nbl" secondAttribute="bottom" constant="23" id="Axt-Ee-b4N"/>
+                                            <constraint firstAttribute="trailing" secondItem="I9i-AP-5Hc" secondAttribute="trailing" id="Bjq-L6-Nsy"/>
+                                            <constraint firstItem="cG3-w1-nbl" firstAttribute="trailing" secondItem="N7I-kX-9Da" secondAttribute="trailing" id="CNu-mf-4y4"/>
+                                            <constraint firstAttribute="trailing" secondItem="N7I-kX-9Da" secondAttribute="trailing" id="Fe6-u4-4t2"/>
+                                            <constraint firstItem="UJD-Yh-yTe" firstAttribute="trailing" secondItem="I9i-AP-5Hc" secondAttribute="trailing" id="Iot-zt-RK2"/>
+                                            <constraint firstItem="a2N-8W-ea9" firstAttribute="top" secondItem="awe-Yg-CiC" secondAttribute="top" constant="-73" id="QA8-6K-l7a"/>
+                                            <constraint firstItem="UJD-Yh-yTe" firstAttribute="leading" secondItem="I9i-AP-5Hc" secondAttribute="leading" id="SRg-qz-5A9"/>
+                                            <constraint firstItem="cG3-w1-nbl" firstAttribute="leading" secondItem="awe-Yg-CiC" secondAttribute="leading" id="Sr2-tr-RDK"/>
+                                            <constraint firstItem="kDB-xg-l4m" firstAttribute="top" secondItem="N7I-kX-9Da" secondAttribute="bottom" constant="-5" id="WRH-sL-9ch"/>
+                                            <constraint firstItem="a2N-8W-ea9" firstAttribute="leading" secondItem="awe-Yg-CiC" secondAttribute="leading" id="X3p-x3-Jwv"/>
+                                            <constraint firstAttribute="height" constant="1900" id="aRq-Ps-aCE"/>
+                                            <constraint firstItem="I9i-AP-5Hc" firstAttribute="top" secondItem="UJD-Yh-yTe" secondAttribute="bottom" constant="26" id="baa-aF-Lgi"/>
+                                            <constraint firstItem="cG3-w1-nbl" firstAttribute="leading" secondItem="N7I-kX-9Da" secondAttribute="leading" id="bpW-RK-GF2"/>
+                                            <constraint firstItem="I9i-AP-5Hc" firstAttribute="leading" secondItem="awe-Yg-CiC" secondAttribute="leading" id="c1c-qx-x45"/>
+                                            <constraint firstItem="N7I-kX-9Da" firstAttribute="leading" secondItem="awe-Yg-CiC" secondAttribute="leading" id="gd4-Oo-sBv"/>
+                                            <constraint firstAttribute="bottom" secondItem="kDB-xg-l4m" secondAttribute="bottom" constant="133" id="lJJ-8u-dlj"/>
+                                            <constraint firstItem="kDB-xg-l4m" firstAttribute="leading" secondItem="awe-Yg-CiC" secondAttribute="leading" constant="77" id="oYs-Yc-f83"/>
+                                            <constraint firstAttribute="trailing" secondItem="cG3-w1-nbl" secondAttribute="trailing" id="plI-eW-LWP"/>
+                                            <constraint firstAttribute="bottom" secondItem="a2N-8W-ea9" secondAttribute="bottom" id="xVU-Er-6sf"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOs-PB-C8Q">
+                                        <rect key="frame" x="111" y="32" width="191" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="J53-pr-3vb"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Game Time !">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.97106727000942139" green="1" blue="0.94248424629506855" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="37" name="AvenirNextCondensed-BoldItalic"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="2Kj-ZS-WBt" firstAttribute="top" secondItem="TSs-MP-pNi" secondAttribute="top" constant="1097" id="0qe-iG-bea"/>
-                                    <constraint firstItem="D1y-ng-gsB" firstAttribute="centerY" secondItem="TSs-MP-pNi" secondAttribute="centerY" id="GFl-mr-OOe"/>
-                                    <constraint firstItem="D1y-ng-gsB" firstAttribute="top" secondItem="TSs-MP-pNi" secondAttribute="top" id="LBd-Qg-YdA"/>
-                                    <constraint firstAttribute="trailing" secondItem="D1y-ng-gsB" secondAttribute="trailing" id="a3L-gn-k1f"/>
-                                    <constraint firstItem="D1y-ng-gsB" firstAttribute="leading" secondItem="TSs-MP-pNi" secondAttribute="leading" id="cdX-Bj-1kO"/>
-                                    <constraint firstItem="D1y-ng-gsB" firstAttribute="leading" secondItem="2Kj-ZS-WBt" secondAttribute="leading" id="kEJ-8q-aUl"/>
-                                    <constraint firstItem="D1y-ng-gsB" firstAttribute="trailing" secondItem="2Kj-ZS-WBt" secondAttribute="trailing" id="ked-bZ-X3J"/>
-                                    <constraint firstItem="D1y-ng-gsB" firstAttribute="centerX" secondItem="TSs-MP-pNi" secondAttribute="centerX" id="udu-lt-T2S"/>
-                                    <constraint firstAttribute="bottom" secondItem="D1y-ng-gsB" secondAttribute="bottom" id="uue-h0-rRt"/>
+                                    <constraint firstItem="UJD-Yh-yTe" firstAttribute="top" secondItem="GOs-PB-C8Q" secondAttribute="bottom" constant="18" id="10D-4B-aMS"/>
+                                    <constraint firstAttribute="bottom" secondItem="awe-Yg-CiC" secondAttribute="bottom" constant="-128" id="Ify-eU-PNV"/>
+                                    <constraint firstItem="GOs-PB-C8Q" firstAttribute="leading" secondItem="gjq-yN-x2Q" secondAttribute="leading" constant="111" id="Kbx-Fq-HEo"/>
+                                    <constraint firstItem="awe-Yg-CiC" firstAttribute="leading" secondItem="gjq-yN-x2Q" secondAttribute="leading" id="WoI-e0-VOD"/>
+                                    <constraint firstItem="GOs-PB-C8Q" firstAttribute="centerX" secondItem="UJD-Yh-yTe" secondAttribute="centerX" constant="19" id="aEE-E9-rP7"/>
+                                    <constraint firstAttribute="trailing" secondItem="awe-Yg-CiC" secondAttribute="trailing" id="iJS-g7-ibF"/>
+                                    <constraint firstItem="awe-Yg-CiC" firstAttribute="top" secondItem="gjq-yN-x2Q" secondAttribute="top" constant="64" id="kYi-hp-eN3"/>
+                                    <constraint firstItem="GOs-PB-C8Q" firstAttribute="top" secondItem="gjq-yN-x2Q" secondAttribute="topMargin" constant="24" id="upK-Qz-foj"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TSs-MP-pNi" firstAttribute="bottom" secondItem="9Y0-LZ-gj3" secondAttribute="top" id="471-vD-yY4"/>
-                            <constraint firstItem="TSs-MP-pNi" firstAttribute="leading" secondItem="Mpc-Fm-rfK" secondAttribute="leading" id="AbH-7y-Tbw"/>
-                            <constraint firstAttribute="trailing" secondItem="TSs-MP-pNi" secondAttribute="trailing" id="Ytv-lv-7ib"/>
-                            <constraint firstItem="TSs-MP-pNi" firstAttribute="top" secondItem="G37-IV-5IW" secondAttribute="bottom" id="Zdr-VX-h0c"/>
+                            <constraint firstItem="Ah3-CW-iBl" firstAttribute="top" secondItem="gjq-yN-x2Q" secondAttribute="bottom" id="8li-CB-Ba6"/>
+                            <constraint firstAttribute="trailing" secondItem="gjq-yN-x2Q" secondAttribute="trailing" id="KfK-vk-7kp"/>
+                            <constraint firstItem="gjq-yN-x2Q" firstAttribute="top" secondItem="vF8-vs-hPi" secondAttribute="bottom" id="YZU-4l-ERB"/>
+                            <constraint firstItem="awe-Yg-CiC" firstAttribute="width" secondItem="kAP-ov-LHp" secondAttribute="width" id="gT8-o3-hsz"/>
+                            <constraint firstItem="gjq-yN-x2Q" firstAttribute="leading" secondItem="kAP-ov-LHp" secondAttribute="leading" id="wHl-Om-OcQ"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="1700"/>
+                    <size key="freeformSize" width="375" height="1900"/>
                     <connections>
-                        <segue destination="PFE-nh-dFs" kind="show" identifier="habibi" id="jj8-SK-7NX"/>
+                        <segue destination="PFE-nh-dFs" kind="show" identifier="Chutiyaa" id="Fbt-PL-8gA"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yju-xH-XRc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9T-D4-PIt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13509.6" y="-506.44677661169419"/>
+            <point key="canvasLocation" x="18309.599999999999" y="-1001.1994002998501"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="kb7-ll-OPX">
+        <scene sceneID="3of-6k-GID">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MNs-aW-xpE" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gnk-0Z-VGe" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AK1-8V-6je">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fNb-7J-cTQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kT4-Rp-2gg"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dkq-lb-Otl"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bbp-bV-1KE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zqp-eA-n9V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1951.2" y="37.331334332833585"/>
+            <point key="canvasLocation" x="5708" y="37.331334332833585"/>
         </scene>
     </scenes>
     <resources>
@@ -1755,13 +1748,14 @@ Sure money doesn't buy happiness, but would you rather your'e tears fell on Buga
         <image name="os8fo" width="300" height="96"/>
         <image name="seablue" width="1280" height="800"/>
         <image name="unnamed" width="300" height="300"/>
+        <image name="wall-street" width="2000" height="1334"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ycZ-IX-4H5"/>
-        <segue reference="jj8-SK-7NX"/>
         <segue reference="CI1-kc-aGR"/>
-        <segue reference="rrV-bJ-8rt"/>
+        <segue reference="Fbt-PL-8gA"/>
+        <segue reference="e7r-xd-wYr"/>
         <segue reference="ysf-76-MVg"/>
+        <segue reference="rrV-bJ-8rt"/>
         <segue reference="VCC-8q-dG4"/>
         <segue reference="MbO-eB-Occ"/>
         <segue reference="Cne-K5-eHy"/>
